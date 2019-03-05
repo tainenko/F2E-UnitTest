@@ -10,8 +10,8 @@ docker run -d -it jest-node bash
 docker run -d -it jest-node java -jar agent.jar -jnlpUrl...   
 <h3>備註</h3>
 command:  docker build [OPTION] PATH   
--t jest-node:標註docker image的名稱和jest-node  
-.:意即dockerfile位於當前資料夾   
+-t jest-node:標註docker image的名稱為jest-node  
+.:指定的dockerfile位於當前資料夾   
    
      
 command:  docker run [OPTION] IMAGE COMMAND   
