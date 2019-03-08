@@ -1,0 +1,7 @@
+From node:10.15.1
+MAINTAINER Tony.Ko
+#COPY package.json 
+COPY agent.jar /root
+WORKDIR /root
+Run apt-get update && apt-get install -y default-jdk
+Run npm install -g jest && yarn add --dev jest-junit
